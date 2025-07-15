@@ -11,3 +11,8 @@ Neste repositório estarei registrando meu treinamento e aulas com o framework N
 - Revalidate, Cache
 - Cache Fetch
 - Middleware
+- Route Handlers
+
+
+### O que é o Next?
+É um framework baseado em react, atualmente fullstack, com diversos funcionamentos embutidos dentro do sistema como por exemplo o router
