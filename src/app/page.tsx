@@ -1,12 +1,15 @@
+import React from "react";
 import { Metadata } from "next"
 
+// Component
+import Table from "./components/table";
+
 export const metadata: Metadata = {
-    title: 'Home - Aula Next JS',
-    description: "Aprendendo Next",
+    title: 'Pet Gallery',
+    description: "Pet gallery, here we show all the dogs and cats breeds",
     openGraph: {
-        title: 'Aprendendo Nextjs',
-        description: "Aprendendo Next",
-        // images: ['https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fpt-br%2Fs%2Ffotografias%2Fimagem&psig=AOvVaw27mNrKOo0IoKK17knL74rp&ust=1752691346137000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKiYypnCv44DFQAAAAAdAAAAABAE']
+        title: 'Pet Gallery',
+        description: "Pet gallery, here we show all the dogs and cats breeds",
     },
     robots: {
         index: true,
@@ -17,18 +20,14 @@ export const metadata: Metadata = {
             follow: true
         }
     }
-} // EXEMPLO DE METADATA
+}
 
 export const revalidate = 60;
 
 export default function Home() {
-
-    const randomNumber = Math.random() * 10;
-
     return (
-        <div>
-            <h1>Home Page</h1>
-            <h2>Num gerado: {randomNumber}</h2>
-        </div>
+        <section>
+            <Table/>
+        </section>
     )
 }

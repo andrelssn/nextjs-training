@@ -2,8 +2,19 @@ import Link from "next/link";
 
 export function Header() {
     return (
-        <header style={{ display: "flex", backgroundColor: "#000000", color: "#fff", padding: 15, justifyContent: "space-between" }}>
-            <h1>Next</h1>
+        <header
+            style={{
+                display: "flex",
+                backgroundColor: "#ffffffff",
+                color: "#1976d2",
+                padding: 15,
+                justifyContent: "space-between",
+                borderBottom: "1px solid #cecece"
+            }}
+        >
+            <h1 className="font-bold">
+                Pet Gallery
+            </h1>
 
             <div>
                 <Link href={'/'} style={{ marginRight: 10 }}>

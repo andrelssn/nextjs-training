@@ -1,0 +1,18 @@
+.view-more-btn {
+    color: #fff;
+    padding: 10px;
+    background-color: #1976d2;
+    border-radius: 10px;
+}
+
+.view-more-btn:hover {
+    transition: 0.3s;
+    background-color: #124577;
+    border-radius: 10px;
+}
+
+.view-more-btn:active {
+    transition: 0.1s;
+    background-color: #193d61;
+    border-radius: 10px;
+}
