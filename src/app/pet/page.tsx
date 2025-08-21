@@ -4,7 +4,8 @@ import { Button, Typography } from '@mui/material';
 // Icons
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-export default function NotFound() {
+
+export default function PetDetails() {
     return (
         <div>
             <div className="justify-self-center mt-6 mb-10 w-[95%]">
@@ -16,10 +17,10 @@ export default function NotFound() {
 
                 <div className="flex relative w-[100%] min-h-150 justify-center border border-neutral-300 rounded-xl shadow-md/30 bg-neutral-100 overflow-auto">
                     <Typography m={"auto"} fontWeight={"bold"} color="#4b4b4bff">
-                        Page Not Found.
+                        Pet Not Found.
                     </Typography>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};

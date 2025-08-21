@@ -1,11 +1,11 @@
-import React from "react";
-import { Metadata } from "next"
+import React from 'react';
+import { Metadata } from 'next'
 
 // Component
-import Table from "./components/table";
+import Table from './components/table';
 
 export const metadata: Metadata = {
-    title: 'Pet Gallery',
+    title: 'Pet Gallery - Home',
     description: "Pet gallery, here we show all the dogs and cats breeds",
     openGraph: {
         title: 'Pet Gallery',

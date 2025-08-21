@@ -1,13 +1,13 @@
-import { Metadata } from "next";
-import { Header } from "./components/header";
-import "./globals.css";
+import { Metadata } from 'next';
+import { Header } from './components/header';
+import './globals.css';
 
 export const metadata: Metadata = {
-    title: 'Aula Next JS',
-    description: "Aprendendo Next",
+    title: 'Pet Gallery',
+    description: "Pet gallery, here we show all the dogs and cats breeds",
     openGraph: {
-        title: 'Aprendendo Nextjs',
-        description: "Aprendendo Next",
+        title: 'Pet Gallery',
+        description: "Pet gallery, here we show all the dogs and cats breeds",
     },
     robots: {
         index: true,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
             follow: true
         }
     }
-} // EXEMPLO DE METADATA
+}
 
 export default function RootLayout({
     children,
